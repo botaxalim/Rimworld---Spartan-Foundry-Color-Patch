@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimworld: Spartan Foundry</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>		
+	<!-- =============== Powered Assault Armor ===============-->	
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_PoweredAssaultArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(180,60,60)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	  
+		
+	 	
+	<!-- ==================================== Powered Assault Armor Helmet =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_PoweredAssaultArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>						
+						  <only>(180,60,60)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+
+	<!-- ==================================== Engineer Power Armor =====================================-->	
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_EngineerPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(255,235,122)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+
+
+	<!-- ==================================== Engineer Power Armor Helmet =====================================-->	
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_EngineerPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(255,235,122)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+<!-- ==================================== Explorer Power Armor =====================================-->	
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ExplorerPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(180,173,150)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+<!-- ==================================== Explorer Power Armor Helmet=====================================-->		
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ExplorerPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(180,173,150)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+<!-- ==================================== Grenadier Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_GrenadierPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(85,118,69)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+<!-- ==================================== Grenadier Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_GrenadierPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(85,118,69)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+
+<!-- ==================================== Commando Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_CommandoArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(133,97,67)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+<!-- ==================================== Commando Armor Helmet=====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_CommandoArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(133,97,67)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	 
+<!-- ==================================== Hazard Operations Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_HazardOperationsArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(146,164,81)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	
+<!-- ==================================== Hazard Operations Armor Helmet =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_HazardOperationsArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(146,164,81)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>	
+
+<!-- ==================================== Diplomat Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_DiplomatPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(0,106,126)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Diplomat Power Armor Helmet =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_DiplomatPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(0,106,126)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Defender Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_DefenderPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(160,178,181)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Defender Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_DefenderPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(160,178,181)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Scout Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ScoutPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(0.65,0.65,0.65)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Scout Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ScoutPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(0.65,0.65,0.65)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Samurai Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_SamuraiPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(156,142,132)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Samurai Power Armor Helmet =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_SamuraiPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(156,142,132)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Shock Trooper Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ShockTrooperArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(105,105,105)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Shock Trooper Armor Helmet =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ShockTrooperArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(105,105,105)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Recon Power Armor =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ReconPowerArmor"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(0.9,0.9,0.9)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+<!-- ==================================== Recon Power Armor Helmet =====================================-->
+			<li Class="PatchOperationReplace">		
+				<xpath>/Defs/ThingDef[defName = "SF_ReconPowerArmorHelmet"]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options">
+					  <options>
+						<li>
+						  <only>(0.9,0.9,0.9)</only>
+						</li>
+					  </options>
+					</colorGenerator>
+				</value>
+			</li>
+
+			
+		</operations>		
+		</match>
+	</Operation>
+	
+</Patch> 
+
